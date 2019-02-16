@@ -3,11 +3,45 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+meeting: weekly
+event: next
 ---
 
-<header class="post-header">
-    <h1 class="post-title">Spring 2019 Leaderboard</h1>
-</header>
+{% assign meeting = site.data.dates[page.meeting] %}
+<div class="post-list">
+<h1>
+    <b>
+        Join us on {{ meeting.day }}s from {{ meeting.time }} in
+        {{ meeting.room }}
+    </b>
+</h1></div>
+
+{% assign next_event = site.data.events[page.event] %}
+<h2 class="post-list-heading">Next Upcoming Event</h2>
+<ul class="post-list">
+    <li>
+        <h3>
+            {{ next_event.title }} - {{ next_event.date }} ({{ next_event.location }})
+        </h3>
+        {%- if next_event.description -%}
+        <h4>
+            {{ next_event.description | escape }}
+        </h4>
+        {%- endif -%}
+        {%- if next_event.link -%}
+        <h4>
+            <a class="post-link" href="{{ next_event.link | escape }}">
+                Register Here
+            </a>
+        </h4>
+        {%- endif -%}
+    </li>
+</ul>
+
+
+{% assign next_event = site.data.dates[page.meeting] %}
+
+<h2 class="post-list-heading">Spring 2019 Leaderboard</h2>
 <div>{% include output.html %}</div>
 <div>
     <img src="assets/img/green_up_arrow.png" height="17" /> = position increased <br>

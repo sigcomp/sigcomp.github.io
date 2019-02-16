@@ -13,14 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: MST ACM Sig-Comp
-email: your-email@example.com
+email: jmmbbv@mst.edu
+author: Jack Mandhart - Chair
 description: >- # this means to ignore newlines until "baseurl:"
   Sig-Comp stands for Special Interest Group - Competition. We are a group of
   students that like to solve coding challenges.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  sigcomp
 
 # Build settings
 markdown: kramdown
