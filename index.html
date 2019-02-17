@@ -16,33 +16,48 @@ event: next
     </b>
 </h1></div>
 
+<hr>
+
 {% assign next_event = site.data.events[0] %}
 <h2 class="post-list-heading">Next Upcoming Event</h2>
-<ul class="post-list">
-    <li>
-        <h3>
-            {{ next_event.title }} - {{ next_event.date }} ({{ next_event.location }})
-        </h3>
-        {%- if next_event.description -%}
-        <h4>
-            {{ next_event.description | escape }}
-        </h4>
-        {%- endif -%}
-        {%- if next_event.link -%}
-        <h4>
-            <a class="post-link" href="{{ next_event.link | escape }}">
-                Link to more info about this event
-            </a>
-        </h4>
-        {%- endif -%}
-    </li>
-</ul>
+<h3>{{ next_event.title }} - {{ next_event.date }} ({{ next_event.location }})</h3>
+
+{%- if next_event.description -%}
+<h4>
+    {{ next_event.description | escape }}
+</h4>
+{%- endif -%}
+
+{%- if next_event.link -%}
+<h4>
+    <a class="post-link" href="{{ next_event.link | escape }}">
+        Link to more info about this event
+    </a>
+</h4>
+{%- endif -%}
+
+<hr>
 
 <h2 class="post-list-heading">Weekly Practice Problems</h2>
-{%- for problem in site.data.problems -%}
-<a class="post-link" href="{{ problem.link }}">{{ problem.title }} - Difficulty: {{ problem.dif }}</a>
-{%- endfor -%}
-<a class="post-link"><br></a>
+<div class="wrapper">
+    {%- for problem in site.data.problems -%}
+    <a class="post-link" href="{{ problem.link }}">{{ problem.title }} - Difficulty: {{ problem.dif }}</a>
+    {%- endfor -%}
+</div>
+<br>
+
+<hr>
+
+{%- if site.data.open_bounties -%}
+{% assign bounty = site.data.open_bounties[0] %}
+<h2 class="post-list-heading">Featured Bounty</h2>
+<div class="wrapper">
+    <a class="post-link" href="{{ bounty.link }}">{{ bounty.name }} - Difficulty: {{ bounty.dif }}</a>
+</div>
+{%- endif -%}
+<br>
+
+<hr>
 
 {% assign next_event = site.data.dates[page.meeting] %}
 

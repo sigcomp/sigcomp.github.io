@@ -1,0 +1,5 @@
+- name: DVDs
+  solver: Thomas McKanna
+  solve_date: 02/13/2019
+  dif: 3.4
+  link: dvds

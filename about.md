@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Us
+menu: main
 permalink: /about/
 ---
 
