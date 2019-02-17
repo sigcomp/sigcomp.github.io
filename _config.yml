@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: MST ACM Sig-Comp
+title: S&T ACM SIG-Comp
 email: jmmbbv@mst.edu
-author: Jack Mandhart - Chair
+author: Jack Manhardt - Chair
 description: >- # this means to ignore newlines until "baseurl:"
-  Sig-Comp stands for Special Interest Group - Competition. We are a group of
+  SIG-Comp stands for Special Interest Group - Competition. We are a group of
   students that like to solve coding challenges.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
