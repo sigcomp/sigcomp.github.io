@@ -8,7 +8,7 @@ Chair: Jack Manhardt
 
 Advisor: Dr. Ricardo Morales
 
-Join our Discord channel! <https://discord.gg/ayjGE9t>
+Join our Discord channel! <https://discord.gg/4t954Ad>
 
 Join the E-mail list! <https://groups.google.com/d/forum/sig-comp><br/>
 Make sure that you are signed into your student account

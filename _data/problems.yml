@@ -1,0 +1,17 @@
+- weekly_1:
+  title: Sum Kind of Problem
+  id: sumkindofproblem
+  dif: 1.6
+  link: https://open.kattis.com/problems/sumkindofproblem
+
+- weekly_2:
+  title: Akcija
+  id: akcija
+  dif: 2.1
+  link: https://open.kattis.com/problems/akcija
+
+- weekly_3:
+  title: A List Game
+  id: listgame
+  dif: 3.1
+  link: https://open.kattis.com/problems/listgame

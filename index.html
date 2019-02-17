@@ -38,6 +38,11 @@ event: next
     </li>
 </ul>
 
+<h2 class="post-list-heading">Weekly Practice Problems</h2>
+{%- for problem in site.data.problems -%}
+<a class="post-link" href="{{ problem.link }}">{{ problem.title }} - Difficulty: {{ problem.dif }}</a>
+{%- endfor -%}
+<a class="post-link"><br></a>
 
 {% assign next_event = site.data.dates[page.meeting] %}
 
