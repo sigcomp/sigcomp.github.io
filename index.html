@@ -39,11 +39,9 @@ event: next
 <hr>
 
 <h2 class="post-list-heading">Weekly Practice Problems</h2>
-<div class="wrapper">
     {%- for problem in site.data.problems -%}
     <a class="post-link" href="{{ problem.link }}">{{ problem.title }} - Difficulty: {{ problem.dif }}</a>
     {%- endfor -%}
-</div>
 <br>
 
 <hr>
@@ -51,9 +49,7 @@ event: next
 {%- if site.data.open_bounties -%}
 {% assign bounty = site.data.open_bounties[0] %}
 <h2 class="post-list-heading">Featured Bounty</h2>
-<div class="wrapper">
     <a class="post-link" href="{{ bounty.link }}">{{ bounty.name }} - Difficulty: {{ bounty.dif }}</a>
-</div>
 {%- endif -%}
 <br>
 
