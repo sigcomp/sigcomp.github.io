@@ -7,12 +7,6 @@ meeting: weekly
 event: next
 ---
 
-{% assign solo = site.data.honorees.solo %}
-{% assign group = site.data.honorees.group %}
-<h1>
-    <b>Congratulations to our current honorees, team {{ solo.team }} ({{ solo.member }}) and team {{ group.team }} ({{ group.members }})</b>
-</h1>
-
 {% assign meeting = site.data.dates[page.meeting] %}
 <div class="post-list">
 <h1>
