@@ -28,16 +28,4 @@
       </nav>
     {%- endif -%}
   </div>
-  {% assign solo = site.data.honorees.solo %}
-  {% assign group = site.data.honorees.group %}
-  <div class="wrapper">Group Honorees:
-      {% for member in group.members %}
-        <code>{{ member.name }}</code>
-      {% endfor %}
-      of {{ group.team }}
-  </div>
-  <div  class="wrapper">
-    Solo Honoree: <code>{{ solo.name }}</code> of {{ solo.team }}
-  </div>
-  </br>
 </header>

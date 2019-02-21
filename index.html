@@ -18,6 +18,32 @@ event: next
 
 <hr>
 
+<div class="highlight">
+    <div>
+        <b>Congratulations to our current ninja masters...</b>
+    </div>
+
+    {% assign solo = site.data.honorees.solo %}
+    {% assign group = site.data.honorees.group %}
+    <div>Group:
+        {% for member in group.members %}
+        <code>{{ member.name }}</code>
+        {% endfor %}
+        of team {{ group.team }}
+    </div>
+
+    <div>
+    Solo: <code>{{ solo.name }}</code> of team {{ solo.team }}
+    </div>
+</div>
+
+<i>
+    finishing the most problems during an internal competition earns you the
+    title of ninja master.
+</i>
+
+<hr>
+
 {% assign next_event = site.data.events[0] %}
 <h1 class="post-list-heading">Next Upcoming Event</h1>
 <h2>{{ next_event.title }} - {{ next_event.date }} ({{ next_event.location }})</h2>
