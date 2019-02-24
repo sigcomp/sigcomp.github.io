@@ -1,12 +1,10 @@
-- title: Internal Competition
-  date: 02/22/2019
-  location: CS 207
-  description: An hour-long programming competition. Fill out
-    the Google Form to register. You can go solo or team up.
-  link: https://docs.google.com/forms/d/1pLnC5Xk6pejHj8RlXekVR7mZ7V8RiV3nRrSwWw0x2Z8
-
 - title: Google Kick Start Practice Round
   date: 02/23/2019
   location: Online
   description: Ready to solve fun, challenging problems? Kick Start hosts online rounds throughout the year, giving participants the opportunity to test and grow their coding abilities while getting a sample of the programming skills needed for a technical career at Google.
   link: https://codingcompetitions.withgoogle.com/kickstart
+
+- title: General Meeting
+  date: 03/01/2019
+  location: CS 207
+  description: Recap of competition problems and more.

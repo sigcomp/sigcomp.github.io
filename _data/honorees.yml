@@ -1,11 +1,12 @@
 solo:
-  team: Unvaccinated
-  name: Joseph Lewis
-  numSolved: 2
+  team: Sneky snek
+  name: Nicholas Jacobson
+  numSolved: 3
 
 group:
-  team: "//TODO: WIN"
+  team: Got Gravy?
   members:
+    - name: Clay McGinnis
+    - name: Cole Dieckhaus
     - name: Thomas McKanna
-    - name: Adam Sawyer
   numSolved: 5
