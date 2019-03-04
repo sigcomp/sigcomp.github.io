@@ -1,24 +1,14 @@
-- title: Soda Surpler
-  id: sodasurpler
-  dif: 1.5
-  link: https://open.kattis.com/problems/sodasurpler
+- title: Yin and Yang Stones
+  id: yinyangstones
+  dif: 1.7
+  link: https://open.kattis.com/problems/yinyangstones
 
-- title: Boss Battle
-  id: bossbattle
+- title: 2048
+  id: "2048"
   dif: 1.8
-  link: https://open.kattis.com/problems/bossbattle
+  link: https://open.kattis.com/problems/2048
 
-- title: Another Brick in the Wall
-  id: anotherbrick
-  dif: 1.9
-  link: https://open.kattis.com/problems/anotherbrick
-
-- title: Anthony and Diablo
-  id: anthonyanddiablo
-  dif: 2.4
-  link: https://open.kattis.com/problems/anthonyanddiablo
-
-- title: A List Game
-  id: listgame
-  dif: 3.1
-  link: https://open.kattis.com/problems/listgame
+- title: Another Candies
+  id: anothercandies
+  dif: 2.8
+  link: https://open.kattis.com/problems/anothercandies
