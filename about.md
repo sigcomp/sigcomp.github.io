@@ -29,3 +29,8 @@ gives students the confidence to succeed in research and industry.
 Chair: {{ site.data.contacts.chair.name }}
 
 Advisor: {{ site.data.contacts.advisor.name }}
+
+Our Committees
+--------------
+
+Web Committee: Webmaster - {{ site.data.contacts.webmaster.name }}
