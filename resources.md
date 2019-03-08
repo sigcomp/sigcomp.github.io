@@ -6,6 +6,11 @@ permalink: /resources/
 contact: webmaster
 ---
 
+## Our Guides
+
+- [Dynamic Programming](https://docs.google.com/presentation/d/1N7oJU32LOzWC-0nRM2V-PtgfLRhVX6tp9U95mGg--VM/edit?usp=sharing) by Dalton Cole
+    - [Example Code](https://github.com/drc14/sig_comp_dynamic_programming)
+
 ## Places to Learn
 
 ### Treeware
