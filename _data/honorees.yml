@@ -1,12 +1,12 @@
 solo:
-  team: Sneky snek
-  name: Nicholas Jacobson
+  team: Thomas
+  name: Thomas McKanna
   numSolved: 3
 
 group:
-  team: Got Gravy?
+  team: TJT
   members:
-    - name: Clay McGinnis
-    - name: Cole Dieckhaus
-    - name: Thomas McKanna
-  numSolved: 5
+    - name: Thomas Gleiforst
+    - name: Jonathan Ogden
+    - name: Tommy Dong
+  numSolved: 4
