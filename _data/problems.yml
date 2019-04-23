@@ -1,14 +1,14 @@
-- title: Yin and Yang Stones
-  id: yinyangstones
-  dif: 1.7
-  link: https://open.kattis.com/problems/yinyangstones
+- title: Skocimis
+  id: "skocimis"
+  dif: 1.5
+  link: https://open.kattis.com/problems/skocimis
 
-- title: 2048
-  id: "2048"
-  dif: 1.8
-  link: https://open.kattis.com/problems/2048
-
-- title: Another Candies
-  id: anothercandies
+- title: Knights in Fen
+  id: knightsfen
   dif: 2.8
-  link: https://open.kattis.com/problems/anothercandies
+  link: https://open.kattis.com/problems/knightsfen
+
+- title: A Multiplication Game
+  id: amultiplicationgame
+  dif: 4.3
+  link: https://open.kattis.com/problems/amultiplicationgame
