@@ -1,11 +1,11 @@
 solo:
   team: Sneky Snek
-  name: Someone
+  name: Nicholas Jacobson
   numSolved: 3
 
 group:
   team: SEGFAULT
   members:
-    - name: Someone
     - name: Jonathan Ogden
+    - name: Caleb Roth
   numSolved: 4
