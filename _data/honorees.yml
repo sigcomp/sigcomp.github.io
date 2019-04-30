@@ -1,12 +1,11 @@
 solo:
-  team: Thomas
-  name: Thomas McKanna
+  team: Sneky Snek
+  name: Someone
   numSolved: 3
 
 group:
-  team: TJT
+  team: SEGFAULT
   members:
-    - name: Thomas Gleiforst
+    - name: Someone
     - name: Jonathan Ogden
-    - name: Tommy Dong
   numSolved: 4
