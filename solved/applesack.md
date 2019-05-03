@@ -6,7 +6,7 @@ title: Johnny Applesack - Difficulty Level 3.7
 ## Problem Breakdown
 > You are given N apples and a sack that can hold K apples. Before you lies a series of toll booths spaced 1 kilometer apart. If it costs 1 apple to pass a toll booth (moving away from the initial position), how many kilometers can you travel?
 
-The problem states that we are allowed to deposit apples anywhere we like and retrieve them at any time. This is the key to progressing further than K kilometers. What we must optimise is the distance we travel with each trip. Going a further distance will allow us to make fewer returning trips, but will cost us more apples per trip.
+The problem states that we are allowed to deposit apples anywhere we like and retrieve them at any time. This is the key to progressing further than K kilometers. What we must optimize is the distance we travel with each trip. Going a further distance will allow us to make fewer returning trips, but will cost us more apples per trip.
 
 
 ## Solution Explanation
@@ -28,15 +28,17 @@ From this it clear to see that making repeated 1 kilometer trips is the most eff
 ```python
 import math
 
+#input "N K" -> apples = N, sack = K
 apples, sack = map(int, input().split())
 
 km = 1 #we can cheat one km by walking to the edge of the marker
 
 while apples > sack:
-    apples -= math.ceil(apples/sack) #this gives us the amount of trips it will take to move all our apples 1 km
+    #the amount of trips necessary to move all apples 1 km
+    apples -= math.ceil(apples/sack) 
     km += 1
 
-km += apples
+km += apples #no more return trips
 
 print(km)
 ```
