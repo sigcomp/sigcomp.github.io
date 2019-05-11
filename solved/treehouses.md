@@ -73,13 +73,13 @@ In this example, since we end with 5 effective edges and their are 7 effective
 vertices, we only need to add one more edge, the shortest edge the connected the two
 remaining disjoint sets.
 
-![](/assets/solution_img/treehouses/a.png "a")
-![](/assets/solution_img/treehouses/b.png "b")
-![](/assets/solution_img/treehouses/c.png "c")
-![](/assets/solution_img/treehouses/d.png "d")
-![](/assets/solution_img/treehouses/e.png "e")
-![](/assets/solution_img/treehouses/f.png "f")
-![](/assets/solution_img/treehouses/g.png "g")
+![a](/assets/solution_img/treehouses/a.png "a")
+![b](/assets/solution_img/treehouses/b.png "b")
+![c](/assets/solution_img/treehouses/c.png "c")
+![d](/assets/solution_img/treehouses/d.png "d")
+![e](/assets/solution_img/treehouses/e.png "e")
+![f](/assets/solution_img/treehouses/f.png "f")
+![g](/assets/solution_img/treehouses/g.png "g")
 
 
 ## Source Code
