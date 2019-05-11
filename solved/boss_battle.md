@@ -3,6 +3,8 @@ layout: page
 title: Boss Battle - Difficulty Level 1.8
 ---
 
+Author: Thomas McKanna
+
 ## Explanation
 
 The question asks for the number of bombs thrown _in the worst case_. In this case the bomb is thrown two pillars in front of the boss, and subsequent bomb throws are away from the boss's initial location. The boss moves in the same direction that the bombs are being thrown. This is best demonstrated visually. In the image below, grey circles represent the bomb-affected pillars and the orange circle is the location of the boss.

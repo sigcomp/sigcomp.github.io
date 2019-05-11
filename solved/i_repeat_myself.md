@@ -3,6 +3,8 @@ layout: page
 title: I Repeat Myself I Repeat Myself I Repeat - Difficulty Level 2.4
 ---
 
+Author: Thomas McKanna
+
 ## Problem Breakdown
 > For every test case, print a single output line giving the length of the shortest pattern that explains the given input string.
 
