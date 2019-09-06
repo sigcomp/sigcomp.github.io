@@ -8,7 +8,7 @@ permalink: /about/
 Mission Statement
 ---------------------------------
 
->SIG-Comp places students in a competitive environment to encourage
+>ACM Comp places students in a competitive environment to encourage
 self-improvement and provide a benchmark by which they can measure
 their growth. Members will build up algorithmic problem-solving skills
 and learn to communicate their solutions in a supportive environment.
@@ -33,4 +33,6 @@ Advisor: {{ site.data.contacts.advisor.name }}
 Our Committees
 --------------
 
-Web Committee: Webmaster - {{ site.data.contacts.webmaster.name }}
+Event Committee: Lead - {{ site.data.contacts.eventmaster.name }}
+
+Web Committee: Lead - {{ site.data.contacts.webmaster.name }}

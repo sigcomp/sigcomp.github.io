@@ -1,5 +1,15 @@
-- title: Summer time!
-  date:
-  location: ☀️😎
-  description: We'll see you next year!
+- title: General Meeting
+  date: 09/06/2019
+  location: CS 207
+  description: Introduction to ACM Comp.
 
+- title: Google Tech Challenge
+  link: https://goo.gle/MST-Fall19-RSVP
+  date: 09/11/2019
+  location: Havener Center
+  description: Interested in participating in a fun and friendly puzzle competition? Assemble a team of up to five of your friend to put your knowledge and tech expertise to the test against other student teams!
+
+- title: General Meeting
+  date: 09/06/2019
+  location: CS 207
+  description: To be determined.

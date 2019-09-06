@@ -35,10 +35,12 @@ contact: webmaster
 
 ## Places to Practice
 - [Kattis](https://open.kattis.com/) (Sig-comp's practice website of choice)
+- [LeetCode](https://leetcode.com/)
+- [CodinGame](https://www.codingame.com/start)
 - [UVa](https://uva.onlinejudge.org/)
 - Halim's training [series](https://uhunt.onlinejudge.org/series/)
 - [HackerRank](https://www.hackerrank.com/)
-- [LeetCode](https://leetcode.com/)
+
 - [CodeForces](http://codeforces.com/)
 - [CodeChef](https://www.codechef.com/)
 - [TopCoder](https://www.topcoder.com/)
