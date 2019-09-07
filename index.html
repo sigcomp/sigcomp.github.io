@@ -16,7 +16,7 @@ event: next
     </b>
 </h2></div>
 
-<!-- <hr>
+<hr>
 
 <div class="highlight">
     <div>
@@ -29,11 +29,11 @@ event: next
         {% for member in group.members %}
         <code>{{ member.name }}</code>
         {% endfor %}
-        of team {{ group.team }}
+        <!-- of team {{ group.team }} -->
     </div>
 
     <div>
-    Solo: <code>{{ solo.name }}</code> of team {{ solo.team }}
+    Solo: <code>{{ solo.name }}</code>
     </div>
 </div>
 
@@ -42,7 +42,7 @@ event: next
     title of honoree.
 </i>
 
-<hr> -->
+<hr>
 
 {% assign next_event = site.data.events[0] %}
 <h1 class="post-list-heading">Next Upcoming Event</h1>

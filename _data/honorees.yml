@@ -1,0 +1,12 @@
+solo:
+  team: _
+  name: Curtis Brinker
+  numSolved: 3
+
+group:
+  team: NoName
+  members:
+    - name: Saiteja Konda
+    - name: Nikhil Vijayakumar
+    - name: Venkat Srinivas Rao Porumamilla
+  numSolved: 3
