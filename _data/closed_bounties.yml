@@ -3,3 +3,9 @@
   solve_date: 02/13/2019
   dif: 3.4
   link: dvds
+
+- name: The Magical 3
+  solver: Nicolas Jacobson
+  solve_date: 05/30/2019
+  dif: 6.0
+  link: magical3

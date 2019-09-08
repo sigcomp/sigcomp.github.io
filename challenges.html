@@ -27,5 +27,6 @@ permalink: /challenges/
 {%- for bounty in site.data.closed_bounties -%}
     <div class="wrapper">
         <a class="post-link" href="/solved/{{ bounty.link }}">{{ bounty.name }} ({{ bounty.dif }}) - Solved by {{ bounty.solver }} on {{ bounty.solve_date }}</a>
+        <h3 class="post-list-heading"></h3>
     </div>
 {%- endfor -%}
