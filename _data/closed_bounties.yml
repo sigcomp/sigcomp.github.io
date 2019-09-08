@@ -4,6 +4,12 @@
   dif: 3.4
   link: dvds
 
+- name: 10 Kinds of People
+  solver: Dalton Cole
+  solve_date: 02/29/2019
+  dif: 5.3
+  link: 10_kinds_of_people
+
 - name: The Magical 3
   solver: Nicolas Jacobson
   solve_date: 05/30/2019
