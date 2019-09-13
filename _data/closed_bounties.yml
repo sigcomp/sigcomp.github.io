@@ -13,5 +13,5 @@
 - name: The Magical 3
   solver: Nicolas Jacobson
   solve_date: 05/30/2019
-  dif: 6.0
+  dif: 5.9
   link: magical3
