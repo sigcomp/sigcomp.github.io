@@ -21,7 +21,7 @@ gives students the confidence to succeed in research and industry.
 
 - Join our [Discord channel](<https://discord.gg/4t954Ad>).
 
-- Join the [E-mail list](<https://groups.google.com/d/forum/sig-comp>) (Make sure that you are signed into your student account).
+- Join the [E-mail list](<https://groups.google.com/a/mst.edu/forum/#!forum/acm-comp-grp/join>) (Make sure that you are signed into your student account).
 
 {{ site.semester }} Leadership
 ------------------------------
