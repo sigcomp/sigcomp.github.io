@@ -1,12 +1,10 @@
 solo:
   team: _
-  name: Curtis Brinker
+  name: Adam Gausmann
   numSolved: 3
 
 group:
-  team: NoName
+  team: Best Team
   members:
-    - name: Saiteja Konda
-    - name: Nikhil Vijayakumar
-    - name: Venkat Srinivas Rao Porumamilla
+    - name: Best Team
   numSolved: 3
