@@ -40,13 +40,15 @@ contact: webmaster
 - [UVa](https://uva.onlinejudge.org/)
 - Halim's training [series](https://uhunt.onlinejudge.org/series/)
 - [HackerRank](https://www.hackerrank.com/)
-
 - [CodeForces](http://codeforces.com/)
 - [CodeChef](https://www.codechef.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [SPOJ](https://www.spoj.com/)
 - [Project Euler](https://projecteuler.net/)
 - [Google Kickstart](https://codingcompetitions.withgoogle.com/kickstart)
+
+# Miscellaneous
+- [Kattis Hints](https://cpbook.net/methodstosolve?oj=kattis&topic=all&quality=all)
 
 {% assign contact = site.data.contacts[page.contact] %}
 **Are we missing a good resource? Contact {{ contact.name }} at {{ contact.email }}.**

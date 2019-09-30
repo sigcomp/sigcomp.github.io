@@ -1,14 +1,15 @@
-- title: Quick Brown Fox
-  id: quickbrownfox
-  dif: 1.6
-  link: https://open.kattis.com/problems/quickbrownfox
+- title: Game of Throwns
+  id: throwns
+  dif: 2.5
+  link: https://open.kattis.com/problems/throwns
 
-- title: Encoded Message
-  id: "encodedmessage"
-  dif: 1.4
-  link: https://open.kattis.com/problems/encodedmessage
+- title: Even Up Solitaire
+  id: evenup
+  dif: 2.6
+  link: https://open.kattis.com/problems/evenup
 
-- title: Grid
-  id: "grid"
-  dif: 3.0
-  link: https://open.kattis.com/problems/grid
+- title: Pairing Socks
+  id: pairingsocks
+  dif: 2.7
+  link: https://open.kattis.com/problems/pairingsocks
+
