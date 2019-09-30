@@ -5,6 +5,83 @@ title: Pokemon Go Go - Difficulty Level 5.8
 
 ### **Solved by Adam Gausmann on 09/29/2019.**
 
+[**Link to the Kattis problem**](https://open.kattis.com/problems/pokemongogo)
+
+## Problem
+
+Given a list of available Pok&eacute;mon at various locations
+(Pok&eacute;Stops), find the shortest route to catch one of every
+Pok&eacute;mon species and return to the starting point.
+
+There is an upper bound on the number of unique Pok&eacute;mon species (15) and
+on the total number of Pok&eacute;mon available (20).
+
+## Solution
+
+This problem is related to the [traveling purchaser problem], a
+generalization of the traveling salesman problem where the goal is to visit
+markets to buy the needed items while minimizing the total cost of traveling
+and purchasing items.
+
+For this problem, the markets are the locations of the Pok&eacute;mon and
+the items are the species of Pok&eacute;mon; the cost of traveling is the
+[Manhattan distance] between locations and the cost of "purchasing"
+Pok&eacute;mon is zero.
+
+A naive brute force search over all potential solutions has
+a time complexity of $$O(n!)$$. This is not good enough for our range of
+input, but we can do better.
+
+The [Held-Karp algorithm] is an algorithm that applies dynamic programming to
+obtain an exact solution to the TSP with a time complexity of $$O(2^nn^2)$$ and
+a space complexity of $$O(2^nn)$$. It is derived from the property
+that every subpath of an optimal path is itself optimal. One formulation of the
+algorithm is as follows:
+
+> Let $$V = \{0, 1, ..., n\}$$ be a set of destinations where $$s = 0$$ is the
+> start and end point, and $$c_{ij}$$ be the cost of traveling from $$i$$ to
+> to $$j$$. Then the cost function is:
+>
+> $$f_k(S, j) = \min_{m \in S - \{j\}} (f_{k-1}(S - \{m\}, k) + c_{kj})$$
+> $$f_1(\{j\}, j) = c_{sj}$$
+>
+> where $$S$$ is the set of destinations visited starting from $$s$$, and $$j$$
+> is the last destination visited.
+
+This is almost enough to solve the problem, but not quite. The goal is not to
+find a circuit through all destinations, but instead find one that
+obtains every required item. Formally, the goal of TSP would be finding
+the value of $$f_{|V|}(V, s)$$; but instead I extend it like so:
+
+> Let $$B = \{1, ..., m\}$$ be the set of required items, $$M(j) \subseteq
+> B$$ be the items available at destination $$j$$, and $$P(S) =
+> \cup_{s \in S}{M(s)}$$ be the items purchased after traveling to all
+> destinations in S.
+
+Using these additional values, I can now formulate the goal I want: Find some $$S
+\subseteq V$$ that minimizes the cost $$f_{|S|}(S, s)$$
+with the constraint $$P(S) = B$$.
+
+We can apply this to an implementation of the Held-Karp algorithm fairly easily.
+The algorithm generates optimal paths of a certain length and uses them to
+generate longer optimal paths. It will eventually iterate over every subset of $$V$$, finding the optimal path for each one. During that iteration, I can also check every
+path to see if it satisfies the constraint $$P(S) = B$$, where $$S$$ is
+the set of destinations in that path. If so, I add it as a candidate solution.
+At the end, I take the candidate solution with the minimum cost, and this
+becomes the solution to the problem.
+
+Note that this is not a solution to the more general traveling purchaser
+problem. This algorithm depends on the purchase cost
+being constant; if it were not, then it would additionally have to consider
+where each item should be purchased, and the set of purchased items would become
+part of the state space. In this case it does not matter (the cost is equal to
+zero) so I chose a greedy solution that "purchases" at the first given
+opportunity.
+
+[traveling purchaser problem]: https://en.wikipedia.org/wiki/Traveling_purchaser_problem
+[Manhattan distance]: https://en.wikipedia.org/wiki/Taxicab_geometry
+[Held-Karp algorithm]: https://en.wikipedia.org/wiki/Held%E2%80%93Karp_algorithm
+
 ## Source Code
 
 ```rust
@@ -49,7 +126,7 @@ fn main() {
         nodes.push(((0, 0), BitSet::new()));
         nodes.extend(pokestops);
 
-        // Calculate the cost matrix for travelling from i to j:
+        // Calculate the cost matrix for traveling from i to j:
         let c: Vec<Vec<i16>> = nodes
             .iter()
             .map(|&((ri, ci), _)| {
@@ -60,7 +137,7 @@ fn main() {
             })
             .collect();
 
-        // Dynamic programming algorithm for travelling purchaser.
+        // Dynamic programming algorithm for traveling purchaser.
         let all_pokestops: BitSet = (1..nodes.len()).collect();
         let all_pokemon: BitSet = (0..num_pokemon).collect();
 
