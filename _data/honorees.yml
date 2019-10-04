@@ -1,10 +1,10 @@
 solo:
   team: _
   name: Adam Gausmann
-  numSolved: 3
+  numSolved: 2
 
 group:
-  team: Best Team
+  team: Alex + Luke
   members:
-    - name: Best Team
+    - name: Alex + Luke
   numSolved: 3
