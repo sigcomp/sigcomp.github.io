@@ -10,7 +10,7 @@ permalink: /challenges/
     be marked down in sig-comp history and your legacy will echo for generations.
 </p>
 
-<b>If you have solved a bounty problem, message {{ site.data.contacts.chair.name }}
+<b>If you have solved a bounty problem, message {{ site.data.contacts.webmaster.name }}
     on Discord. The website will be updated to reflect your achievement!
 </b>
 
@@ -26,7 +26,7 @@ permalink: /challenges/
 <h2 class="post-list-heading">Claimed Bounties</h2>
 {%- for bounty in site.data.closed_bounties -%}
     <div class="wrapper">
-        <a class="post-link" href="/solved/{{ bounty.link }}">{{ bounty.name }} ({{ bounty.dif }}) - Solved by {{ bounty.solver }} on {{ bounty.solve_date }}</a>
+        <a class="post-link" href="/solutions/{{ bounty.link }}">{{ bounty.name }} ({{ bounty.dif }}) - Solved by {{ bounty.solver }} on {{ bounty.solve_date }}</a>
         <h3 class="post-list-heading"></h3>
     </div>
 {%- endfor -%}

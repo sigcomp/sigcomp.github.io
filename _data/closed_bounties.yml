@@ -21,3 +21,9 @@
   solve_date: 09/29/2019
   dif: 5.8
   link: pokemongogo
+
+- name: Even Up Solitaire
+  solver: Thomas McKanna
+  solve_date: 10/05/2019
+  dif: 2.7
+  link: even_up_solitaire
