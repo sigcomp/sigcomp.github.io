@@ -33,6 +33,16 @@ Advisor: {{ site.data.contacts.advisor.name }}
 Our Committees
 --------------
 
-Event Committee: Lead - {{ site.data.contacts.eventmaster.name }}
+#### Event Committee: 
 
-Web Committee: Lead - {{ site.data.contacts.webmaster.name }}
+- **Lead** - {{ site.data.contacts.eventmaster.name }}
+{% for person in site.data.contacts.eventcommittee %}
+- {{ person }}
+{% endfor %}
+
+#### Web Committee: 
+
+- **Lead** - {{ site.data.contacts.webmaster.name }}
+{% for person in site.data.contacts.webcommittee %}
+- {{ person }}
+{% endfor %}

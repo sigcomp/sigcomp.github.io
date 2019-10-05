@@ -2,9 +2,18 @@ webmaster:
   name: Thomas McKanna
   email: tjmzq8@mst.edu
 
+webcommittee:
+  - Adam Gausmann
+  - Cole Dieckhaus
+
 eventmaster:
   name: Thomas Gleiforst
   email: tmg4xk@mst.edu
+
+eventcommittee:
+  - Tommy Dong
+  - Joseph Lewis
+  - Luke Hellebusch
 
 chair:
   name: Jack Manhardt
