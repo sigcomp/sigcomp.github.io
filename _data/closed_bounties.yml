@@ -27,3 +27,9 @@
   solve_date: 10/05/2019
   dif: 2.7
   link: even_up_solitaire
+
+- name: March of the Penguins
+  solver: Adam Guasmann
+  solve_date: 10/05/2019
+  dif: 4.7
+  link: march_of_the_penguins
