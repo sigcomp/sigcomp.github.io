@@ -1,15 +1,15 @@
-- title: Game of Throwns
-  id: throwns
+- title: Natjecanje
+  id: natjecanje
   dif: 2.5
-  link: https://open.kattis.com/problems/throwns
+  link: https://open.kattis.com/problems/natjecanje
 
-- title: Even Up Solitaire
-  id: evenup
-  dif: 2.6
-  link: https://open.kattis.com/problems/evenup
+- title: Boggle
+  id: boggle
+  dif: 3.6
+  link: https://open.kattis.com/problems/boggle
 
-- title: Pairing Socks
-  id: pairingsocks
-  dif: 2.7
-  link: https://open.kattis.com/problems/pairingsocks
+- title: Font
+  id: font
+  dif: 3.9
+  link: https://open.kattis.com/problems/font
 
