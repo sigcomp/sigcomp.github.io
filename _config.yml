@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: S&T ACM Comp
+title: Missouri S&T
 email: jmmbbv@mst.edu
 author: Jack Manhardt - Chair
 baseurl: "" # the subpath of your site, e.g. /blog
